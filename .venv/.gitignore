@@ -1,18 +1,9 @@
-# Ignorar entornos virtuales
-.venv/
-env/
+# Ignorar todos los archivos por defecto
+*
 
-# Ignorar archivos de configuración con credenciales
-.env
-config.json
+# Excluir los archivos específicos que quieres subir
+!beale_cipher.py
+!README.md
 
-# Ignorar archivos de bases de datos
-*.sqlite
-*.db
-
-# Ignorar archivos de log
-*.log
-
-# Ignorar archivos de compilación
-*.pyc
-__pycache__/
+# Excluir el archivo .gitignore para que no se ignore a sí mismo
+!.gitignore
